@@ -1,41 +1,14 @@
-# Website
+# ltlyl-web
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## 许可证
 
-### Installation
+本项目采用 [Creative Commons Attribution 4.0 International License (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/) 许可证。
 
-```
-$ yarn
-```
+这意味着您可以：
 
-### Local Development
+- 共享 — 复制和重新分发本项目的材料（以任何媒介或格式）
+- 改编 — 重新组合、转换和基于本项目的材料创建新的作品（甚至用于商业目的）
 
-```
-$ yarn start
-```
+条件是：
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+- 署名 — 您必须给出适当的署名，提供指向本网站的链接。

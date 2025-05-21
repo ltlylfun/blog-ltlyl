@@ -7,6 +7,8 @@ tags: [hello]
 
 # Hello World！
 
+<!-- truncate -->
+
 ```javascript
 // 一段简单的代码示例
 function sayHello() {

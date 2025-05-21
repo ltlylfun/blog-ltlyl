@@ -1,98 +1,23 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  font-size: 20px;
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
-a {
-  color: inherit;
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
 }
 
-.page {
-  width: 100%;
-  min-height: 1500px;
+.buttons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  opacity: 0;
-}
-
-.textOverlay,
-.scrollMsg {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.scrollMsg {
-  margin-top: 2em;
-  pointer-events: none;
-}
-
-.scrollMsg > div:nth-child(1) {
-  margin-top: -10vh;
-  padding-bottom: 1em;
-  text-transform: uppercase;
-  font-size: 2em;
-}
-
-.textOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: 0;
-}
-
-.gooeyOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  pointer-events: none;
-}
-
-.arrowAnimated {
-  font-size: 1em;
-  animation: arrowFloat 1s infinite;
-}
-
-@keyframes arrowFloat {
-  0% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  60% {
-    transform: translateY(50%);
-    animation-timing-function: ease-in-out;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-}
-
-.lilGui {
-  --width: 350px;
-  max-width: 90%;
-  --widget-height: 20px;
-  font-size: 15px;
-  --input-font-size: 15px;
-  --padding: 10px;
-  --spacing: 10px;
-  --slider-knob-width: 5px;
-  --background-color: rgba(5, 0, 15, 0.8);
-  --widget-color: rgba(255, 255, 255, 0.3);
-  --focus-color: rgba(255, 255, 255, 0.4);
-  --hover-color: rgba(255, 255, 255, 0.5);
-  --font-family: monospace;
-}
-
-.lilGui.autoPlace {
-  z-index: 1;
 }

@@ -74,9 +74,15 @@ const config: Config = {
       items: [
         {
           type: "docSidebar",
-          sidebarId: "docsSidebar",
+          sidebarId: "JSSidebar",
           position: "left",
-          label: "docs",
+          label: "JS",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "TSSidebar",
+          position: "left",
+          label: "TS",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -126,10 +132,14 @@ const config: Config = {
               label: "GitHub",
               href: "https://github.com/ltlylfun",
             },
+            {
+              label: "许可证",
+              href: "https://creativecommons.org/licenses/by/4.0/",
+            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ltlylfun, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ltlylfun 本站内容采用 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0 许可证</a>`,
     },
     prism: {
       theme: prismThemes.github,

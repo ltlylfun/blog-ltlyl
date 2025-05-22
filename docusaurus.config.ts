@@ -64,12 +64,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/logo.jpg",
     navbar: {
       title: "ltlyl-web",
       logo: {
         alt: "ltlyl-web Logo",
-        src: "img/logo.svg",
+        src: "img/logo.jpg",
       },
       items: [
         {

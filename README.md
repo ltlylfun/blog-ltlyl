@@ -1,5 +1,10 @@
 # ltlyl-web
 
+## 网站链接
+
+- 主要网址：[https://web.ltlyl.fun/](https://web.ltlyl.fun/)
+- 备用网址：[https://ltlylweb.funzhijie126.workers.dev/](https://ltlylweb.funzhijie126.workers.dev/)
+
 ## 许可证
 
 本项目采用 [Creative Commons Attribution 4.0 International License (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/) 许可证。

@@ -2,3 +2,30 @@ hello:
   label: Hello
   permalink: /hello
   description: Hello tag description
+
+# React 相关标签
+react:
+  label: React
+  permalink: /react
+  description: React 前端框架相关文章
+
+# CSS 相关标签
+css:
+  label: CSS
+  permalink: /css
+  description: CSS 样式与设计相关文章
+
+tailwind:
+  label: Tailwind CSS
+  permalink: /tailwind
+  description: Tailwind CSS 原子化样式框架相关文章
+
+frontend:
+  label: 前端开发
+  permalink: /frontend
+  description: 前端开发技术与实践相关文章
+
+style-isolation:
+  label: 样式隔离
+  permalink: /style-isolation
+  description: CSS 样式隔离技术与解决方案

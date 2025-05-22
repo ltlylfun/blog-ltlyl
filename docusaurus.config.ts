@@ -64,12 +64,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/logo.jpg",
     navbar: {
       title: "ltlyl-web",
       logo: {
         alt: "ltlyl-web Logo",
-        src: "img/logo.svg",
+        src: "img/logo.jpg",
       },
       items: [
         {
@@ -96,16 +96,16 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "项目-求star:)",
           items: [
-            // {
-            //   label: "docs",
-            //   to: "/docs/intro",
-            // },
+            {
+              label: "简历制作网站",
+              href: "https://resumetojob.ltlyl.fun/",
+            },
           ],
         },
         {
-          title: "Community",
+          title: "社交账号",
           items: [
             // {
             //   label: "Stack Overflow",
@@ -122,7 +122,7 @@ const config: Config = {
           ],
         },
         {
-          title: "More",
+          title: "其他",
           items: [
             {
               label: "GitHub",

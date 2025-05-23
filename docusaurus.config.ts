@@ -84,7 +84,31 @@ const config: Config = {
           position: "left",
           label: "TS",
         },
+        {
+          type: "docSidebar",
+          sidebarId: "CSSSidebar",
+          position: "left",
+          label: "CSS",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "SMLSidebar",
+          position: "left",
+          label: "状态管理库",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "FFSidebar",
+          position: "left",
+          label: "前端框架",
+        },
         { to: "/blog", label: "Blog", position: "left" },
+        {
+          type: "docSidebar",
+          sidebarId: "RLSidebar",
+          position: "right",
+          label: "推荐链接",
+        },
         {
           href: "https://github.com/ltlylfun",
           label: "GitHub",

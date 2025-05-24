@@ -159,7 +159,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ltlylfun 本站内容采用 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0 许可证</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} ltlylfun 本站内容采用 <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0 许可证</a><br/><img src="https://count.getloli.com/get/@ltlyl-web?theme=rule34" alt="访客统计" style="margin-top: 8px; image-rendering: pixelated;" />`,
     },
     prism: {
       theme: prismThemes.github,

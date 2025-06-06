@@ -35,15 +35,10 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/ltlylfun/ltlyl-web/tree/main",
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: "全部blog",
+          blogSidebarTitle: "全部博客",
           blogSidebarCount: "ALL",
           feedOptions: {
             type: ["rss", "atom"],
@@ -75,41 +70,9 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "JSSidebar",
+          to: "/blog",
+          label: "博客",
           position: "left",
-          label: "JS",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "TSSidebar",
-          position: "left",
-          label: "TS",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "CSSSidebar",
-          position: "left",
-          label: "CSS",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "SMLSidebar",
-          position: "left",
-          label: "状态管理库",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "FFSidebar",
-          position: "left",
-          label: "前端框架",
-        },
-        { to: "/blog", label: "Blog", position: "left" },
-        {
-          type: "docSidebar",
-          sidebarId: "RLSidebar",
-          position: "right",
-          label: "推荐链接",
         },
         {
           href: "https://github.com/ltlylfun",

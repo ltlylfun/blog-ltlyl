@@ -3,13 +3,11 @@ hello:
   permalink: /hello
   description: Hello tag description
 
-# React 相关标签
 react:
   label: React
   permalink: /react
   description: React 前端框架相关文章
 
-# CSS 相关标签
 css:
   label: CSS
   permalink: /css
@@ -19,25 +17,3 @@ tailwind:
   label: Tailwind CSS
   permalink: /tailwind
   description: Tailwind CSS 原子化样式框架相关文章
-
-frontend:
-  label: 前端开发
-  permalink: /frontend
-  description: 前端开发技术与实践相关文章
-
-style-isolation:
-  label: 样式隔离
-  permalink: /style-isolation
-  description: CSS 样式隔离技术与解决方案
-
-# JavaScript 相关标签
-javascript:
-  label: JavaScript
-  permalink: /javascript
-  description: JavaScript 语言相关文章
-
-# Node.js 相关标签
-node.js:
-  label: Node.js
-  permalink: /nodejs
-  description: Node.js 后端开发技术相关文章

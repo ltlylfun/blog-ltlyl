@@ -6,8 +6,7 @@
 
 ## 🔗 网站链接
 
-- **主要网址**：[https://web.ltlyl.fun/](https://web.ltlyl.fun/)
-- **备用网址**：[https://ltlylweb.funzhijie126.workers.dev/](https://ltlylweb.funzhijie126.workers.dev/)
+- **网址**：[https://ltlylfun.github.io/blog-ltlyl/](https://ltlylfun.github.io/blog-ltlyl/)
 
 ## 📝 blog 目录
 
@@ -15,8 +14,8 @@
 
 #### 5 月
 
-1. [Hello World！](https://web.ltlyl.fun/blog/hello-world)
-1. [在 React 中使用 Tailwind CSS 的实践体验](https://web.ltlyl.fun/blog/tailwind-experience)
+1. [Hello World！](https://ltlylfun.github.io/blog-ltlyl/blog/hello-world)
+1. [在 React 中使用 Tailwind CSS 的实践体验](https://ltlylfun.github.io/blog-ltlyl/blog/tailwind-experience)
 
 ## 📄 许可证
 

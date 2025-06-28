@@ -1,12 +1,17 @@
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-
 react:
   label: React
   permalink: /react
   description: React 前端框架相关文章
+
+javascript:
+  label: JavaScript
+  permalink: /javascript
+  description: JavaScript 编程语言相关文章
+
+html:
+  label: HTML
+  permalink: /html
+  description: HTML 标记语言相关文章
 
 css:
   label: CSS

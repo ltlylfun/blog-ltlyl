@@ -31,6 +31,12 @@ const config: Config = {
     locales: ["zh"],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
+  themes: ["@docusaurus/theme-mermaid"],
+
   presets: [
     [
       "classic",
@@ -85,7 +91,7 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "项目-求star:)",
+          title: "项目",
           items: [
             {
               label: "简历制作网站",

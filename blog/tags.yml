@@ -22,3 +22,13 @@ tailwind:
   label: Tailwind CSS
   permalink: /tailwind
   description: Tailwind CSS 原子化样式框架相关文章
+
+http:
+  label: HTTP
+  permalink: /http
+  description: HTTP 协议与网络通信相关文章
+
+web-security:
+  label: Web 安全
+  permalink: /web-security
+  description: Web 安全与跨域等安全话题相关文章

@@ -21,14 +21,14 @@ html[data-theme="dark"] .container {
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: 0.5rem;
-  color: #000000;
+  color: #74c0fc;
   margin: 0;
   padding: 0;
   animation: fadeIn 2s ease-in-out;
 }
 
 html[data-theme="dark"] .title {
-  color: #ffffff;
+  color: #ff922b;
 }
 
 @keyframes fadeIn {

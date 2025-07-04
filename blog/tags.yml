@@ -23,6 +23,11 @@ tailwind:
   permalink: /tailwind
   description: Tailwind CSS 原子化样式框架相关文章
 
+browser:
+  label: 浏览器
+  permalink: /browser
+  description: 浏览器工作原理、缓存机制等相关文章
+
 http:
   label: HTTP
   permalink: /http
@@ -32,3 +37,18 @@ web-security:
   label: Web 安全
   permalink: /web-security
   description: Web 安全与跨域等安全话题相关文章
+
+event-loop:
+  label: 事件循环
+  permalink: /event-loop
+  description: JavaScript 事件循环机制与异步编程相关文章
+
+svelte:
+  label: Svelte
+  permalink: /svelte
+  description: Svelte 前端框架相关文章
+
+frontend:
+  label: 前端开发
+  permalink: /frontend
+  description: 前端开发技术与最佳实践相关文章

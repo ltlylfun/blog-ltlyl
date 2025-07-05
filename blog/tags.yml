@@ -52,3 +52,53 @@ frontend:
   label: 前端开发
   permalink: /frontend
   description: 前端开发技术与最佳实践相关文章
+
+tcp:
+  label: TCP
+  permalink: /tcp
+  description: TCP 协议与网络传输相关文章
+
+network:
+  label: 网络协议
+  permalink: /network
+  description: 网络协议与网络通信相关文章
+
+web:
+  label: Web 技术
+  permalink: /web
+  description: Web 技术与开发相关文章
+
+api:
+  label: API
+  permalink: /api
+  description: API 设计与开发相关文章
+
+websocket:
+  label: WebSocket
+  permalink: /websocket
+  description: WebSocket 实时通信技术相关文章
+
+sse:
+  label: Server-Sent Events
+  permalink: /sse
+  description: Server-Sent Events 服务器推送技术相关文章
+
+csharp:
+  label: C#
+  permalink: /csharp
+  description: C# 编程语言与 .NET 开发相关文章
+
+winforms:
+  label: Windows Forms
+  permalink: /winforms
+  description: Windows Forms 桌面应用开发相关文章
+
+windows:
+  label: Windows
+  permalink: /windows
+  description: Windows 操作系统与开发相关文章
+
+wallpaper:
+  label: 壁纸
+  permalink: /wallpaper
+  description: 壁纸软件与桌面应用开发相关文章

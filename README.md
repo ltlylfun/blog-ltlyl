@@ -14,7 +14,8 @@
 
 #### 7 月
 
-1. [React 客户端渲染 vs 服务端渲染](https://ltlylfun.github.io/blog-ltlyl/blog/react-csr-vs-ssr)
+1. [JavaScript 原型与继承机制详解](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-prototype-inheritance)
+2. [React 客户端渲染 vs 服务端渲染](https://ltlylfun.github.io/blog-ltlyl/blog/react-csr-vs-ssr)
 
 #### 6 月
 
@@ -38,8 +39,11 @@
 
 #### 2 月
 
-1. [React 官方废弃 Create React App：新时代的开始](https://ltlylfun.github.io/blog-ltlyl/blog/react-cra-deprecated)
-2. [React 事件机制](https://ltlylfun.github.io/blog-ltlyl/blog/react-event-system)
+1. [即时通讯的实现方式：短轮询、长轮询、SSE、WebSocket 详解](https://ltlylfun.github.io/blog-ltlyl/blog/realtime-communication-methods)
+2. [CDN 详解：让你的网站飞起来](https://ltlylfun.github.io/blog-ltlyl/blog/cdn-introduction)
+3. [GET vs POST：深入理解两种 HTTP 请求方法的区别](https://ltlylfun.github.io/blog-ltlyl/blog/get-vs-post)
+4. [React 官方废弃 Create React App：新时代的开始](https://ltlylfun.github.io/blog-ltlyl/blog/react-cra-deprecated)
+5. [React 事件机制](https://ltlylfun.github.io/blog-ltlyl/blog/react-event-system)
 
 ### 2024 年
 
@@ -51,6 +55,12 @@
 #### 11 月
 
 1. [React Hook 的注意事项](https://ltlylfun.github.io/blog-ltlyl/blog/react-hook-tips)
+
+#### 10 月
+
+1. [HTTP 状态码完全指南](https://ltlylfun.github.io/blog-ltlyl/blog/http-status-codes)
+2. [HTTP 版本对比：从 HTTP/1.0 到 HTTP/3 的演进](https://ltlylfun.github.io/blog-ltlyl/blog/http-versions)
+3. [TCP 三次握手与四次挥手详解](https://ltlylfun.github.io/blog-ltlyl/blog/tcp-handshake)
 
 #### 8 月
 
@@ -65,6 +75,26 @@
 #### 6 月
 
 1. [JavaScript 中 for...in 与 for...of 的区别详解](https://ltlylfun.github.io/blog-ltlyl/blog/for-in-vs-for-of)
+2. [JavaScript 数据类型判断方法大全](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-type-detection)
+3. [JavaScript 箭头函数](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-arrow-functions)
+
+#### 5 月
+
+1. [JavaScript 数据类型：基本类型 vs 引用类型](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-data-types)
+
+### 2023 年
+
+#### 12 月
+
+1. [C#制作 Windows 动态壁纸软件实现思路](https://ltlylfun.github.io/blog-ltlyl/blog/csharp-dynamic-wallpaper-software)
+
+#### 11 月
+
+1. [C# Blazor 和 Razor 简介，鉴定为 G](https://ltlylfun.github.io/blog-ltlyl/blog/csharp-blazor-razor)
+
+#### 7 月
+
+1. [C#制作贪吃蛇小游戏](https://ltlylfun.github.io/blog-ltlyl/blog/csharp-snake-game)
 
 ## 📄 许可证
 

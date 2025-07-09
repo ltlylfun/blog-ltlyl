@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "ltlyl-web",
   tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  favicon: "https://github.com/ltlylfun.png",
 
   // Set the production url of your site here
   url: "https://ltlylfun.github.io",

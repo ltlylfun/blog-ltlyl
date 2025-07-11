@@ -5,7 +5,7 @@ authors: [fangzhijie]
 tags: [javascript]
 ---
 
-在 JavaScript 开发中，我们经常需要遍历数组和对象。除了传统的`for`循环，ES6 还为我们提供了`for...in`和`for...of`两种循环方式。虽然它们看起来很相似，但用途和行为却有着重要的区别。
+在写代码中，我们经常需要遍历数组和对象。除了传统的`for`循环，ES6 还为我们提供了`for...in`和`for...of`两种循环方式。虽然它们看起来很相似，但用途和行为却有着重要的区别。
 
 <!-- truncate -->
 
@@ -79,7 +79,7 @@ for (let value of set) {
 | **对象遍历** | ✅ 支持                  | ❌ 不支持（普通对象不可迭代）           |
 | **原型链**   | 会遍历继承的属性         | 不会遍历原型链                          |
 
-## 实际应用场景
+## 应用场景
 
 ```javascript
 // for...in 适用场景：遍历对象属性
@@ -110,7 +110,7 @@ async function processFiles(filenames) {
 }
 ```
 
-## 常见陷阱
+## 陷阱
 
 ```javascript
 // for...in 陷阱1：会遍历原型链上的属性

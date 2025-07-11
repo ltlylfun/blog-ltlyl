@@ -5,7 +5,7 @@ authors: [fangzhijie]
 tags: [javascript]
 ---
 
-JavaScript 中的数据类型分为两大类：基本类型（Primitive Types）和引用类型（Reference Types）。
+JavaScript 中的数据类型分为两大类：基本类型和引用类型。
 
 <!-- truncate -->
 
@@ -159,30 +159,44 @@ console.log(original.hobbies); // ["reading", "coding", "gaming"]
 // 深拷贝解决方案
 let deepCopy = JSON.parse(JSON.stringify(original));
 
-// 或使用递归函数
-function deepClone(obj) {
-  if (obj === null || typeof obj !== "object") return obj;
-  if (obj instanceof Date) return new Date(obj);
-  if (obj instanceof Array) return obj.map((item) => deepClone(item));
+// 或
+function deepClone(obj, hash = new WeakMap()) {
+  if (obj === null) return null;
+  if (typeof obj !== "object") return obj;
 
-  let cloned = {};
+  if (obj instanceof Date) return new Date(obj);
+  if (obj instanceof RegExp) return new RegExp(obj);
+
+  if (obj instanceof Map)
+    return new Map(
+      [...obj].map(([key, val]) => [deepClone(key, hash), deepClone(val, hash)])
+    );
+  if (obj instanceof Set)
+    return new Set([...obj].map((val) => deepClone(val, hash)));
+
+  if (hash.has(obj)) return hash.get(obj);
+  const newObj = new obj.constructor();
+  hash.set(obj, newObj);
+
   for (let key in obj) {
     if (obj.hasOwnProperty(key)) {
-      cloned[key] = deepClone(obj[key]);
+      newObj[key] = deepClone(obj[key], hash);
     }
   }
-  return cloned;
+  return newObj;
 }
 ```
 
-## 关键区别总结
+**深拷贝方法对比：**
 
-| 特性         | 基本类型 | 引用类型 |
-| ------------ | -------- | -------- |
-| **存储位置** | 栈内存   | 堆内存   |
-| **存储内容** | 实际值   | 引用地址 |
-| **赋值行为** | 值拷贝   | 引用拷贝 |
-| **比较方式** | 值比较   | 引用比较 |
-| **函数传参** | 值传递   | 引用传递 |
-| **内存占用** | 固定且小 | 动态且大 |
-| **访问速度** | 快       | 相对慢   |
+1. `JSON.parse(JSON.stringify(obj))`
+
+   - 优点：简单易用，适合拷贝结构简单的对象。
+   - 局限：
+     - 无法拷贝函数、undefined、Symbol、BigInt 等类型属性；
+     - Date、RegExp、Map、Set 等特殊对象会被转为普通对象或丢失信息；
+     - 循环引用会报错；
+     - 原型链信息丢失。
+
+2. `deepClone`递归函数
+   - 能处理 Date、RegExp、Map、Set 等特殊对象，支持循环引用（通过 WeakMap），保留原型链，递归拷贝所有属性。

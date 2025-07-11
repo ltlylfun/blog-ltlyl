@@ -209,11 +209,31 @@ for (var i = 0; i < 3; i++) {
   }, 100);
 }
 
-// 解决方案
+// 解决方案1：使用 let
 for (let i = 0; i < 3; i++) {
   setTimeout(function () {
     console.log(i); // 输出 0, 1, 2
   }, 100);
+}
+
+// 解决方案2：使用 IIFE（立即执行函数表达式）
+for (var i = 0; i < 3; i++) {
+  (function (i) {
+    setTimeout(function () {
+      console.log(i); // 输出 0, 1, 2
+    }, 100);
+  })(i);
+}
+
+// 解决方案3：利用 setTimeout 的参数传递
+for (var i = 0; i < 3; i++) {
+  setTimeout(
+    function (j) {
+      console.log(j); // 输出 0, 1, 2
+    },
+    100,
+    i
+  );
 }
 ```
 

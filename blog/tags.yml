@@ -24,7 +24,7 @@ tailwind:
   description: Tailwind CSS 原子化样式框架相关文章
 
 browser:
-  label: 浏览器
+  label: Browser
   permalink: /browser
   description: 浏览器工作原理、缓存机制等相关文章
 
@@ -34,12 +34,12 @@ http:
   description: HTTP 协议与网络通信相关文章
 
 web-security:
-  label: Web 安全
+  label: Web Security
   permalink: /web-security
   description: Web 安全与跨域等安全话题相关文章
 
 event-loop:
-  label: 事件循环
+  label: Event Loop
   permalink: /event-loop
   description: JavaScript 事件循环机制与异步编程相关文章
 
@@ -49,7 +49,7 @@ svelte:
   description: Svelte 前端框架相关文章
 
 frontend:
-  label: 前端开发
+  label: Frontend
   permalink: /frontend
   description: 前端开发技术与最佳实践相关文章
 
@@ -59,12 +59,12 @@ tcp:
   description: TCP 协议与网络传输相关文章
 
 network:
-  label: 网络协议
+  label: Network
   permalink: /network
   description: 网络协议与网络通信相关文章
 
 web:
-  label: Web 技术
+  label: Web
   permalink: /web
   description: Web 技术与开发相关文章
 
@@ -99,6 +99,6 @@ windows:
   description: Windows 操作系统与开发相关文章
 
 wallpaper:
-  label: 壁纸
+  label: Wallpaper
   permalink: /wallpaper
   description: 壁纸软件与桌面应用开发相关文章

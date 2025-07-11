@@ -1,6 +1,6 @@
 ---
 slug: javascript-type-detection
-title: JavaScript数据类型判断方法大全
+title: JavaScript数据类型判断方法
 authors: [fangzhijie]
 tags: [javascript]
 ---

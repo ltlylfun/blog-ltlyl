@@ -79,17 +79,6 @@ HTTP 状态码按照第一位数字分为五大类：
 - **503 Service Unavailable**：服务暂时不可用
 - **504 Gateway Timeout**：网关超时
 
-### 常见问题排查
-
-```mermaid
-graph TD
-    A[遇到错误状态码] --> B{状态码类型}
-    B -->|4xx| C[检查请求参数<br/>验证权限<br/>确认资源存在]
-    B -->|5xx| D[检查服务器日志<br/>验证服务器状态<br/>联系后端团队]
-    C --> E[修复客户端问题]
-    D --> F[修复服务器问题]
-```
-
 _参考资料：_
 
 - [HTTP 状态码标准 - RFC 7231](https://tools.ietf.org/html/rfc7231)

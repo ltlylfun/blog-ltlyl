@@ -69,19 +69,21 @@
 
 #### 7 月
 
-1. [JavaScript 闭包](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-closures)
-2. [浏览器事件循环机制详解](https://ltlylfun.github.io/blog-ltlyl/blog/browser-event-loop)
-3. [HTTP 缓存](https://ltlylfun.github.io/blog-ltlyl/blog/http-cache)
+1. [js中isNaN和Number.isNaN函数的区别](https://ltlylfun.github.io/blog-ltlyl/blog/js-isnan-vs-numberisnan)
+2. [JavaScript 闭包](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-closures)
+3. [浏览器事件循环机制详解](https://ltlylfun.github.io/blog-ltlyl/blog/browser-event-loop)
+4. [HTTP 缓存](https://ltlylfun.github.io/blog-ltlyl/blog/http-cache)
 
 #### 6 月
 
 1. [JavaScript中for...in与for...of的区别详解](https://ltlylfun.github.io/blog-ltlyl/blog/for-in-vs-for-of)
-2. [JavaScript数据类型判断方法大全](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-type-detection)
+2. [JavaScript数据类型判断方法](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-type-detection)
 3. [JavaScript箭头函数](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-arrow-functions)
 
 #### 5 月
 
-1. [JavaScript数据类型：基本类型 vs 引用类型](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-data-types)
+1. [js中null与undefined的区别](https://ltlylfun.github.io/blog-ltlyl/blog/js-null-vs-undefined)
+2. [JavaScript数据类型：基本类型 vs 引用类型](https://ltlylfun.github.io/blog-ltlyl/blog/javascript-data-types)
 
 
 ### 2023 年

@@ -176,6 +176,7 @@ export default function Home(): React.ReactNode {
         </div>
         <div className={styles.textContainer}>
           <h1 className={styles.title}>LTLYLFUN</h1>
+          <iframe src="https://count.getloli.com/@blog-ltlyl?name=blog-ltlyl&theme=rule34&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto"></iframe>
         </div>
       </div>
     </Layout>

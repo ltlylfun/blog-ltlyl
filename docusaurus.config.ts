@@ -69,7 +69,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/logo.jpg",
     navbar: {
-      title: "ltlyl-web",
+      title: "首页",
       logo: {
         alt: "ltlyl-web Logo",
         src: "img/logo.jpg",

@@ -13,7 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "sync-logo": "powershell -Command \"Invoke-WebRequest -Uri 'https://github.com/ltlylfun.png' -OutFile 'static/img/logo.jpg'\""
+    "sync-logo": "powershell -Command \"Invoke-WebRequest -Uri 'https://github.com/ltlylfun.png' -OutFile 'static/img/logo.jpg'\"",
+    "sync-blog": "node scripts/sync-blog.js"
   },
   "dependencies": {
     "@docusaurus/core": "^3.8.1",
